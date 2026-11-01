@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">Kalkulator wynagrodzeń</string>
     <string name="app_title">Kalkulator wynagrodzeń</string>
-    <string name="brutto_label">Brutto (zł)</string>
+    <string name="brutto_label">Brutto miesięcznie</string>
 
     <string name="contract_label">Rodzaj umowy</string>
-    <string name="contract_employment">Umowa o pracę</string>
+    <string name="contract_employment">Umowa o\u00A0pracę</string>
     <string name="contract_zlecenie">Umowa zlecenie</string>
-    <string name="contract_dzielo">Umowa o dzieło</string>
+    <string name="contract_dzielo">Umowa o\u00A0dzieło</string>
 
     <string name="status_only_title">Zlecenie jest jedynym tytułem do ubezpieczeń</string>
     <string name="status_other_employment">Mam etat co najmniej w wysokości minimalnej (tylko zdrowotna)</string>
@@ -34,9 +34,17 @@
     <string name="disclaimer">Wynik orientacyjny. To nie jest porada podatkowa.</string>
     <string name="input_monthly">Miesięcznie</string>
     <string name="input_hourly">Godzinowo</string>
-    <string name="rate_label">Stawka godzinowa (zł/h)</string>
+    <string name="rate_label">Stawka godzinowa</string>
     <string name="hours_label">Liczba godzin</string>
     <string name="line_brutto">Brutto</string>
     <string name="contrast_label">Wysoki kontrast</string>
     <string name="theme_label">Motyw</string>
+
+    <string name="section_amount">Wynagrodzenie</string>
+    <string name="section_options">Opcje i ulgi</string>
+    <string name="section_breakdown">Podział wynagrodzenia</string>
+    <string name="error_amount">Wpisz kwotę większą od zera, np. 8000 lub 8000,50</string>
+    <string name="empty_hint">Wpisz kwotę brutto, a zobaczysz, ile zostaje na rękę i dokąd trafia reszta.</string>
+    <string name="ppk_reduced_hint">Dostępne przy brutto do %1$s.</string>
+    <string name="rules_version">Stawki i limity: wersja %1$s</string>
 </resources>

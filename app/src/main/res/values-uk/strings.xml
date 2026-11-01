@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Калькулятор зарплати</string>
     <string name="app_title">Калькулятор зарплати</string>
-    <string name="brutto_label">Брутто (zł)</string>
+    <string name="brutto_label">Брутто за місяць</string>
 
     <string name="switch_under26">До 26 років (ulga dla młodych, пільга для молоді)</string>
     <string name="switch_out_of_town">Робота поза місцем проживання (koszty 300 zł)</string>
@@ -21,9 +21,28 @@
     <string name="disclaimer">Результат орієнтовний. Це не податкова консультація.</string>
     <string name="input_monthly">За місяць</string>
     <string name="input_hourly">Погодинно</string>
-    <string name="rate_label">Ставка за годину (zł/h)</string>
+    <string name="rate_label">Ставка за годину</string>
     <string name="hours_label">Кількість годин</string>
     <string name="line_brutto">Брутто</string>
     <string name="contrast_label">Високий контраст</string>
     <string name="theme_label">Тема</string>
+
+    <string name="contract_label">Тип договору</string>
+    <string name="contract_employment">Umowa o\u00A0pracę</string>
+    <string name="contract_zlecenie">Umowa zlecenie</string>
+    <string name="contract_dzielo">Umowa o\u00A0dzieło</string>
+    <string name="status_only_title">Zlecenie є єдиною підставою для страхових внесків</string>
+    <string name="status_other_employment">Маю етат щонайменше на мінімальну зарплату (лише zdrowotna)</string>
+    <string name="status_student">Студент або учень до 26 років (без ZUS і zdrowotnej)</string>
+    <string name="switch_sickness">Добровільний лікарняний внесок (chorobowa)</string>
+    <string name="switch_copyright">Авторські права (koszty 50%)</string>
+    <string name="note_student">Звільнення потребує статусу студента (довідка з навчального закладу) і діє до 26-го дня народження.</string>
+    <string name="warning_copyright_limit">Перевищено річний ліміт авторських витрат (120 000 zł), результат наближений.</string>
+    <string name="section_amount">Зарплата</string>
+    <string name="section_options">Опції та пільги</string>
+    <string name="section_breakdown">Розподіл зарплати</string>
+    <string name="error_amount">Введіть суму більше нуля, напр. 8000 або 8000,50</string>
+    <string name="empty_hint">Введіть суму брутто, і ви побачите, скільки лишається на руки та куди йде решта.</string>
+    <string name="ppk_reduced_hint">Доступно при брутто до %1$s.</string>
+    <string name="rules_version">Ставки й ліміти: версія %1$s</string>
 </resources>
