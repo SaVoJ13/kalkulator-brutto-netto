@@ -66,11 +66,15 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    SalaryScreen(rules, dark) {
-                        dark = !dark
-                        context.getSharedPreferences("settings", Context.MODE_PRIVATE)
-                            .edit().putBoolean("dark_theme", dark).apply()
-                    }
+                    SalaryScreen(
+                        rules = rules,
+                        dark = dark,
+                        onToggleTheme = {
+                            dark = !dark
+                            context.getSharedPreferences("settings", Context.MODE_PRIVATE)
+                                .edit().putBoolean("dark_theme", dark).apply()
+                        }
+                    )
                 }
             }
         }
