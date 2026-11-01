@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Калькулятор зарплати</string>
+    <string name="app_title">Калькулятор зарплати</string>
+    <string name="brutto_label">Брутто (zł)</string>
+
+    <string name="switch_under26">До 26 років (ulga dla młodych, пільга для молоді)</string>
+    <string name="switch_out_of_town">Робота поза місцем проживання (koszty 300 zł)</string>
+    <string name="switch_pit2">PIT-2 (kwota zmniejszająca, зменшення податку)</string>
+    <string name="switch_ppk">PPK</string>
+    <string name="switch_ppk_reduced">Знижений внесок PPK 0,5%</string>
+
+    <string name="line_emerytalna">Пенсійний (emerytalna)</string>
+    <string name="line_rentowa">Інвалідний (rentowa)</string>
+    <string name="line_chorobowa">Лікарняний (chorobowa)</string>
+    <string name="line_zdrowotna">Медичний (zdrowotna)</string>
+    <string name="line_pit">Аванс PIT (zaliczka)</string>
+    <string name="line_ppk_employee">PPK (працівник)</string>
+    <string name="line_netto">Нетто (на руки)</string>
+
+    <string name="warning_youth_limit">Перевищено ліміт пільги для молоді, результат наближений.</string>
+    <string name="disclaimer">Результат орієнтовний. Це не податкова консультація.</string>
+    <string name="input_monthly">За місяць</string>
+    <string name="input_hourly">Погодинно</string>
+    <string name="rate_label">Ставка за годину (zł/h)</string>
+    <string name="hours_label">Кількість годин</string>
+    <string name="line_brutto">Брутто</string>
+    <string name="contrast_label">Високий контраст</string>
+    <string name="theme_label">Тема</string>
+</resources>

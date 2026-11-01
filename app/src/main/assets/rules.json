@@ -1,0 +1,37 @@
+{
+  "version": "2026.2",
+  "year": 2026,
+  "minimumWage": 4806.00,
+  "zus": {
+    "emerytalnaEmployee": 0.0976,
+    "rentowaEmployee": 0.015,
+    "chorobowaEmployee": 0.0245,
+    "annualBaseLimit": 282600.00
+  },
+  "health": {
+    "rate": 0.09
+  },
+  "pit": {
+    "rateLow": 0.12,
+    "rateHigh": 0.32,
+    "threshold": 120000.00,
+    "monthlyReducingAmount": 300.00,
+    "costsStandard": 250.00,
+    "costsOutOfTown": 300.00
+  },
+  "youthRelief": {
+    "maxAge": 26,
+    "annualLimit": 85528.00
+  },
+  "ppk": {
+    "employeeRate": 0.02,
+    "employeeReducedRate": 0.005,
+    "reducedThresholdMultiplier": 1.2,
+    "employerRate": 0.015
+  },
+  "civil": {
+    "costsRate": 0.20,
+    "costsCopyrightRate": 0.50,
+    "costsCopyrightAnnualLimit": 120000.00
+  }
+}

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Kalkulator wynagrodzeń</string>
+    <string name="app_title">Kalkulator wynagrodzeń</string>
+    <string name="brutto_label">Brutto (zł)</string>
+
+    <string name="contract_label">Rodzaj umowy</string>
+    <string name="contract_employment">Umowa o pracę</string>
+    <string name="contract_zlecenie">Umowa zlecenie</string>
+    <string name="contract_dzielo">Umowa o dzieło</string>
+
+    <string name="status_only_title">Zlecenie jest jedynym tytułem do ubezpieczeń</string>
+    <string name="status_other_employment">Mam etat co najmniej w wysokości minimalnej (tylko zdrowotna)</string>
+    <string name="status_student">Student lub uczeń do 26 lat (bez ZUS i zdrowotnej)</string>
+
+    <string name="switch_under26">Do 26 lat (ulga dla młodych)</string>
+    <string name="switch_out_of_town">Praca poza miejscem zamieszkania (koszty 300 zł)</string>
+    <string name="switch_pit2">PIT-2 (kwota zmniejszająca)</string>
+    <string name="switch_ppk">PPK</string>
+    <string name="switch_ppk_reduced">PPK obniżone do 0,5%</string>
+    <string name="switch_sickness">Dobrowolna składka chorobowa</string>
+    <string name="switch_copyright">Prawa autorskie (koszty 50%)</string>
+
+    <string name="line_emerytalna">Emerytalna</string>
+    <string name="line_rentowa">Rentowa</string>
+    <string name="line_chorobowa">Chorobowa</string>
+    <string name="line_zdrowotna">Zdrowotna</string>
+    <string name="line_pit">Zaliczka PIT</string>
+    <string name="line_ppk_employee">PPK (pracownik)</string>
+    <string name="line_netto">Netto</string>
+
+    <string name="note_student">Zwolnienie wymaga statusu studenta (zaświadczenie z uczelni) i obowiązuje do 26. urodzin.</string>
+    <string name="warning_youth_limit">Przekroczono limit ulgi dla młodych, wynik jest przybliżony.</string>
+    <string name="warning_copyright_limit">Przekroczono roczny limit kosztów autorskich (120 000 zł), wynik jest przybliżony.</string>
+    <string name="disclaimer">Wynik orientacyjny. To nie jest porada podatkowa.</string>
+    <string name="input_monthly">Miesięcznie</string>
+    <string name="input_hourly">Godzinowo</string>
+    <string name="rate_label">Stawka godzinowa (zł/h)</string>
+    <string name="hours_label">Liczba godzin</string>
+    <string name="line_brutto">Brutto</string>
+    <string name="contrast_label">Wysoki kontrast</string>
+    <string name="theme_label">Motyw</string>
+</resources>
